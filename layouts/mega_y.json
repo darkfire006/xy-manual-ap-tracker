@@ -1,0 +1,80 @@
+{
+    "mega_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+						"item_height": 36,
+						"item_width": 36,
+                        "rows": [
+                            [
+                                "Venusaurite",
+                                "Heracronite",
+                                "Kangaskhanite",
+                                "Gyaradosite",
+                                "Aerodactylite",
+                                "Ampharosite"
+                            ],
+                            [
+                                "CharizarditeY",
+                                "Houndoominite",
+                                "Gardevoirite",
+                                "Mawilite",
+                                "Medichamite",
+                                "Absolite"
+                            ],
+                            [
+                                "Blastoisinite",
+                                "Aggronite",
+                                "Garchompite",
+                                "Lucarionite",
+                                "Abomasite"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "vertical_mega_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "BLUE_CARD",
+                                "BLUE_CARD_POINT",
+                                "RED_APRICORN",
+                                "BLU_APRICORN",
+                                "YLW_APRICORN",
+                                "GRN_APRICORN",
+                                "WHT_APRICORN",
+                                "BLK_APRICORN",
+                                "PNK_APRICORN"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

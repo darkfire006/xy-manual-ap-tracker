@@ -1,0 +1,146 @@
+{
+	"key_items_grid": {
+		"type": "array",
+		"orientation": "horizontal",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "itemgrid",
+				"item_margin": "2,2",
+				"h_alignment": "left",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 36,
+				"item_width": 36,
+				"rows": [
+					[
+						"Bug_Badge",
+						"Cliff_Badge",
+						"Rumble_Badge",
+						"Plant_Badge",
+						"Voltage_Badge",
+						"Fairy_Badge",
+						"Psychic_Badge",
+						"Iceberg_Badge"
+					],
+					[
+						"HM01Cut",
+						"HM02Fly",
+						"HM03Surf",
+						"HM04Strength",
+						"HM05Waterfall",
+						"TM94-RockSmash",
+					],
+					[
+						"DowsingMachine",
+						"RollerSkates",
+						"PokeFlute",
+						"PowerPlantPass",
+						"MegaRing",
+						"OldRod",
+						"GoodRod",
+						"SuperRod"
+					],
+					[
+						"LumioseCityPower",
+						"RhyhornLicense",
+						"SkiddoLicense",
+						"MamoswineLicense",
+						"BeingReadyToTackleWhatLiesBeyondHere",
+						"BeingCoolEnoughToBeAbleToGoToRoute15"
+					]
+				]
+			}
+		]
+	},
+	"skate_tricks_grid": {
+		"type": "array",
+		"orientation": "horizontal",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "itemgrid",
+				"item_margin": "2,2",
+				"h_alignment": "center",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 36,
+				"item_width": 36,
+				"rows": [
+					[
+						"ParallelSwizzle",
+						"360"
+					],
+					[
+						"DriftandDash",
+						"Backflip"
+					]
+				]
+			}
+		]
+	},
+	"skate_tricks_grid_vertical": {
+		"type": "array",
+		"orientation": "horizontal",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "itemgrid",
+				"item_margin": "2,2",
+				"h_alignment": "center",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 36,
+				"item_width": 36,
+				"rows": [
+					[
+						"ParallelSwizzle",
+						"DriftandDash",
+						"360",
+						"Backflip"
+					],
+				]
+			}
+		]
+	},
+	"bgs_moves_grid": {
+		"type": "array",
+		"orientation": "horizontal",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "itemgrid",
+				"item_margin": "2,2",
+				"h_alignment": "center",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 36,
+				"item_width": 36,
+				"rows": [
+					[
+						"AirCutter",
+						"HyperVoice",
+						"PetalBlizzard",
+						"Eruption",
+						"MuddyWater"
+					],
+					[
+						"TM14",
+						"TM80",
+						"RazorLeaf",
+						"HeatWave",
+						"WaterSpout"
+					],
+					[
+						"Twister",
+						"",
+						"",
+						"LavaPlume",
+						"HM03Surf"
+					]
+				]
+			}
+		]
+	},
+}
+

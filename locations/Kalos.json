@@ -1,0 +1,3511 @@
+[
+	{
+		"name": "Kalos",
+		"chest_unopened_img": "/images/items/close.png",
+		"chest_opened_img": "/images/items/open.png",
+		"children": [
+			{
+				"name": "Vaniville Town",
+				"map_locations": [{"map": "Kalos", "x": 848, "y": 720}],
+				"sections": [
+					{
+						"name": "Potion from Mom",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Aquacorde Town",
+				"map_locations": [{"map": "Kalos", "x": 848, "y": 624}],
+				"sections": [
+					{
+						"name": "Shopkeeper next to fountain",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 2",
+				"map_locations": [{"map": "Kalos", "x": 848, "y": 580, "size": 21}],
+				"sections": [
+					{
+						"name": "Poke Balls from Rival",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Santalune Forest",
+				"map_locations": [{"map": "Kalos", "x": 848, "y": 540}],
+				"sections": [
+					{
+						"name": "Item next to entrance",
+						"item_count": 1
+					},
+					{
+						"name": "Item in SW 1",
+						"item_count": 1
+					},
+					{
+						"name": "Item in SW 2",
+						"item_count": 1
+					},
+					{
+						"name": "Paralyze Heal from Shauna",
+						"item_count": 1
+					},
+					{
+						"name": "Gift for speaking to Rival",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Item down narrow path past Lass",
+						"item_count": 1
+					},
+					{
+						"name": "Item just before exit",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 3",
+				"map_locations": [{"map": "Kalos", "x": 816, "y": 510, "size": 21}],
+				"size": 25,
+				"border_thickness": 3,
+				"sections": [
+					{
+						"name": "Item down West ledges",
+						"item_count": 1
+					},
+					{
+						"name": "Item past Cut bush",
+						"access_rules": ["$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Item across pond (Surf)",
+						"access_rules": ["$surf"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Santalune City",
+				"map_locations": [{"map": "Kalos", "x": 786, "y": 476}],
+				"sections": [
+					{
+						"name": "Boy in house NE of PC",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "X-Attacks from man in Trainers School",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "X-Defenses from man in Trainers School",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on NW restaurant patio 1",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on NW restaurant patio 2",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on NW restaurant patio 3",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Roller Skates from Roller Skater Rinka",
+						"visibility_rules": ["$skates_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Gym - Bug Badge",
+						"item_count": 1
+					},
+					{
+						"name": "Gym - TM from Viola",
+						"item_count": 1
+					},
+					{
+						"name": "EXP Share from Alexa",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 4",
+				"map_locations": [{"map": "Kalos", "x": 736, "y": 408}],
+				"access_rules": ["$sLumiose"],
+				"sections": [
+					{
+						"name": "Item in SW hedge maze 1",
+						"item_count": 1
+					},
+					{
+						"name": "Item in SW hedge maze 2",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in SW hedge maze",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in SE hedge maze 1",
+						"item_count": 1
+					},
+					{
+						"name": "Item in SE hedge maze 2",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in top bush North of fountain",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in North Center",
+						"item_count": 1
+					},
+					{
+						"name": "Item in NW Corner",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in NW hedge maze",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item NE Corner",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in NE hedge maze",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Sina and Dexio",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Lumiose City (South)",
+				"map_locations": [{"map": "Kalos", "x": 662, "y": 348}],
+				"access_rules": ["$sLumiose"],
+				"sections": [
+					{
+						"name": "Mega Stone from Sycamore",
+						"visibility_rules": ["$mega_stones"],
+						"item_count": 1
+					},
+					{
+						"name": "Scientist on 2F of Sycamore's Lab",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Girl on 1F of building West of Route 5 gate",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Man on 2F of building West of Route 5 gate",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Other Man on 2F of building West of Route 5 gate",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Skate Trick from Skater in Westernmost building",
+						"visibility_rules": ["$tricks_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Buy TM - Buy TM78",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM76",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM75",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM11",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM18",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					}
+				]
+			},
+			{
+				"name": "Lysandre Labs",
+				"map_locations": [{"map": "Kalos", "x": 662, "y": 312, "size": 21}],
+				"access_rules": ["$nLumiose"],
+				"sections": [
+					{
+						"name": "Revives from definitely not Sina and Dexio in NW room",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Grunt in West room with beds",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in West room with beds",
+						"item_count": 1
+					},
+					{
+						"name": "Item through warp NW of elevator from spin panel South of NE door",
+						"item_count": 1
+					},
+					{
+						"name": "Item in North center room from warp North of above item",
+						"item_count": 1
+					},
+					{
+						"name": "Item through warp panel SW of East door",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Lumiose City (North)",
+				"map_locations": [{"map": "Kalos", "x": 662, "y": 276}],
+				"access_rules": ["$nLumiose"],
+				"sections": [
+					{
+						"name": "Estival Ave - Skate Trick from Skater in cafe",
+						"visibility_rules": ["$tricks_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Vert Plaza - Skate Trick from Skater by monument",
+						"visibility_rules": ["$tricks_on"],
+						"item_count": 1
+					},
+					{
+						"name": "North Blvd - Battle Girl on 3F of building West of Route 14",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "North Blvd - Woman on 3F of building West of Route 14",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Vert Plaza - Skate Trick from Skater by Hotel Richissime",
+						"visibility_rules": ["$tricks_on"],
+						"item_count": 1
+					},
+					{
+						"name": "North Blvd - Girl on 4F of building West of Route 16",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Autumnal Ave - Schoolgirl in Poke Ball Boutique",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Autumnal Ave - Item from Lysandre in red cafe",
+						"item_count": 1
+					},
+					{
+						"name": "Gym - Voltage Badge",
+						"item_count": 1
+					},
+					{
+						"name": "Gym - TM from Clemont",
+						"item_count": 1
+					},
+					{
+						"name": "Gym - Goal - Defeat Clemont",
+                        "chest_unopened_img": "/images/items/Clemont.png",
+                        "chest_opened_img": "/images/items/ClemontDim.png",
+						"visibility_rules": ["opt_victory_clemont"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 5",
+				"map_locations": [{"map": "Kalos", "x": 582, "y": 414}],
+				"access_rules": ["$sLumiose"],
+				"sections": [
+					{
+						"name": "Item East of skate park (Skates)",
+						"access_rules": ["$skater"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in center of bowl in skate park",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$skater,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item South of Twins through grass",
+						"item_count": 1
+					},
+					{
+						"name": "Honey from Trevor",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock West of skate park",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item West of skate park (Skates)",
+						"access_rules": ["$skater"],
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree (Skates)",
+						"visibility_rules": ["$trees_on"],
+						"access_rules": ["$skater"],
+						"item_count": 1
+					},
+					{
+						"name": "Item South of center purple flower patch",
+						"item_count": 1
+					},
+					{
+						"name": "Item in NW past circling skaters (Skates)",
+						"access_rules": ["$skater"],
+						"item_count": 1
+					},
+					{
+						"name": "Item past top Cut bush",
+						"access_rules": ["$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Green Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Purple Berry Tree",
+						"access_rules": ["$backgroundwind"],
+						"visibility_rules": ["$bgs_spec"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Tall Grass",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundgrass"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Camphrier Town",
+				"map_locations": [{"map": "Kalos", "x": 524, "y": 484}],
+				"access_rules": ["$sLumiose"],
+				"sections": [
+					{
+						"name": "Item in SW corner down ledge",
+						"item_count": 1
+					},
+					{
+						"name": "Item South of town",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in bush down path South of town",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Man SW of PC",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from girl West of fountain",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in bush NW of fountain",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Boy in hotel lobby",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Punk Girl in NE House",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Item on 2F of Shabboneau Castle",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 6",
+				"map_locations": [{"map": "Kalos", "x": 448, "y": 426}],
+				"access_rules": ["$sLumiose"],
+				"sections": [
+					{
+						"name": "Item down narrow path immediately West",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on West bush 5 trees South of North exit",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in NW up small hill",
+						"item_count": 1
+					},
+					{
+						"name": "Item in NE grass clearing",
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree",
+						"visibility_rules": ["$trees_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in SW corner",
+						"item_count": 1
+					},
+					{
+						"name": "Item in NE",
+						"item_count": 1
+					},
+					{
+						"name": "Item in NW strip of grass clearing",
+						"item_count": 1
+					},
+					{
+						"name": "Item in SE grass clearing",
+						"item_count": 1
+					},
+					{
+						"name": "Item in SW (watch out for the ledge)",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item at end of East center alcove",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Green Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Purple Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Tall Grass",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundgrass"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Parfum Palace",
+				"map_locations": [{"map": "Kalos", "x": 378, "y": 374}],
+				"access_rules": ["$sLumiose"],
+				"sections": [
+					{
+						"name": "Entrance - Berry from Tourist",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Entrance - Item in NW corner",
+						"item_count": 1
+					},
+					{
+						"name": "2F - Item on fireplace in Westernmost room",
+						"item_count": 1
+					},
+					{
+						"name": "Courtyard - Item in SW hedge maze 1",
+						"item_count": 1
+					},
+					{
+						"name": "Courtyard - Hidden Item in SW hedge maze left eye",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Courtyard - Item in SW hedge maze 2",
+						"item_count": 1
+					},
+					{
+						"name": "Courtyard - Item in SE hedge maze",
+						"item_count": 1
+					},
+					{
+						"name": "Courtyard - Item along East edge",
+						"item_count": 1
+					},
+					{
+						"name": "Courtyard - Hidden Item in NE hedge maze left eye",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Courtyard - Item in NW corner",
+						"item_count": 1
+					},
+					{
+						"name": "Courtyard - Hidden Item on North edge of center fountain",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Butler",
+						"item_count": 1
+					},
+					{
+						"name": "Poke Flute from Butler",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 7",
+				"map_locations": [{"map": "Kalos", "x": 396, "y": 482}],
+				"sections": [
+					{
+						"name": "Oran Berries from man in berry fields",
+						"visibility_rules": ["$npc_on"],
+						"access_rules": ["$sLumiose"],
+						"item_count": 1
+					},
+					{
+						"name": "Pecha Berries from man in berry fields",
+						"visibility_rules": ["$npc_on"],
+						"access_rules": ["$sLumiose"],
+						"item_count": 1
+					},
+					{
+						"name": "Sprinklotad from man in berry fields",
+						"visibility_rules": ["$npc_on"],
+						"access_rules": ["$sLumiose"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in SW corner of berry fields",
+						"visibility_rules": ["$npc_on"],
+						"access_rules": ["$sLumiose"],
+						"item_count": 1
+					},
+					{
+						"name": "Item up narrow path next to bridge",
+						"access_rules": ["$sLumiose"],
+						"item_count": 1
+					},
+					{
+						"name": "Item SE of Battle Chateau",
+						"access_rules": ["$Ambrette"],
+						"item_count": 1
+					},
+					{
+						"name": "Item SW of Battle Chateau",
+						"access_rules": ["$Ambrette"],
+						"item_count": 1
+					},
+					{
+						"name": "Item South of Connecting Cave entrances",
+						"access_rules": ["$Ambrette"],
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree",
+						"visibility_rules": ["$trees_on"],
+						"access_rules": ["$Ambrette"],
+						"item_count": 1
+					},
+					{
+						"name": "Item past Cut bush in West",
+						"access_rules": ["$Ambrette,$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Green Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$Ambrette"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Purple Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$Ambrette"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Tall Grass",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundgrass,$Ambrette"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Connecting Cave",
+				"map_locations": [{"map": "Kalos", "x": 284, "y": 482}],
+				"sections": [
+					{
+						"name": "TM from Backpacker",
+						"visibility_rules": ["$npc_on"],
+						"access_rules": ["$Ambrette"],
+						"item_count": 1
+					},
+					{
+						"name": "Item behind Strength rock",
+						"access_rules": ["$Cyllage,$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Cave Spiky Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$Ambrette,$backgroundsound"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Thin Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$Ambrette,$backgroundwater"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 8",
+				"map_locations": [{"map": "Kalos", "x": 256, "y": 562}],
+				"access_rules": ["$Ambrette"],
+				"sections": [
+					{
+						"name": "Upper - Hidden Item on rock North of Connecting Cave",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Upper - Item in West side ledge maze",
+						"item_count": 1
+					},
+					{
+						"name": "Upper - Item past Strength rock next to flowers",
+						"access_rules": ["$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Upper - Hidden Item next to tip of jutting out cliff",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Upper - Item next to jumping rock puzzle",
+						"item_count": 1
+					},
+					{
+						"name": "Upper - Item down path next to Ambrette Town PC",
+						"item_count": 1
+					},
+					{
+						"name": "Upper Backgroundsanity - Yellow Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Upper Backgroundsanity - Mountain Spiky Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound"],
+						"item_count": 1
+					},
+					{
+						"name": "Upper Backgroundsanity - Round Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundfire"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower - Hidden Item 9 steps South of rock close to berry tree",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower - Hidden Item on rock directly North of stairs",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower - Hidden Item SW of berry tree",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower - Berry from berry tree",
+						"visibility_rules": ["$trees_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower - Hidden Item SW of Dowsing Machine Swimmer",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower - Item on small island in NW (Surf)",
+						"access_rules": ["$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower - Hidden Item 5 (Surf)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$surf,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower - Dowsing Machine from Swimmer",
+						"visibility_rules": ["$npc_on"],
+						"access_rules": ["RhyhornLicense"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower Backgroundsanity - Red Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$hasrod"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower Backgroundsanity - Pink Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$hasrod"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower Backgroundsanity - Sand Pile",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Ambrette Town",
+				"map_locations": [{"map": "Kalos", "x": 288, "y": 636}],
+				"access_rules": ["$Ambrette"],
+				"sections": [
+					{
+						"name": "TM94 Rock Smash from Girl South of Aquarium",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in SW corner",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Beauty in Hotel",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Old Rod from Fisherman in Aquarium",
+						"item_count": 1
+					},
+					{
+						"name": "Beauty in gate to Route 9",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Item on beach below town",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on beach SW of Rock Smash rocks",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Aerodactylite from Scientist",
+						"visibility_rules": ["$mega_stones"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Red Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$hasrod"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Pink Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$hasrod"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Sand Pile",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound,$hasrod"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 9",
+				"map_locations": [{"map": "Kalos", "x": 378, "y": 636}],
+				"access_rules": ["$Glittering"],
+				"sections": [
+					{
+						"name": "Item up stairs North of Rhyhorn path",
+						"item_count": 1
+					},
+					{
+						"name": "Item up stairs South of Rhyhorn path",
+						"item_count": 1
+					},
+					{
+						"name": "Item down narrow path South of Rhyhorn path",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on small rock NE of Ranger",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item South of Glittering Cave entrance",
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Yellow Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Mountain Spiky Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Round Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundfire"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Glittering Cave",
+				"map_locations": [{"map": "Kalos", "x": 462, "y": 634}],
+				"access_rules": ["$Glittering"],
+				"sections": [
+					{
+						"name": "Item at end of second detour",
+						"item_count": 1
+					},
+					{
+						"name": "Item at end of third detour",
+						"item_count": 1
+					},
+					{
+						"name": "Item South of Fossil Assistant",
+						"item_count": 1
+					},
+					{
+						"name": "Fossil from Fossil Assistant",
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Mossy Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Cyllage City",
+				"map_locations": [{"map": "Kalos", "x": 224, "y": 478}],
+				"access_rules": ["$Cyllage"],
+				"sections": [
+					{
+						"name": "Evolution Item from Chef in Southernmost house",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock behind Southernmost house",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Get Bike from shop",
+						"item_count": 1
+					},
+					{
+						"name": "Berries from girl in house behind PC for completing quiz",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Male Tourist in hotel",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Female Tourist in hotel",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Maid on 2F of hotel",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in middle of road West of big hill",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item behind benches South of big hill",
+						"item_count": 1
+					},
+					{
+						"name": "HM from Grant",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on small rock in front of Gym",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item down dirt ramp West of Gym",
+						"item_count": 1
+					},
+					{
+						"name": "Item on dirt path halfway down big hill",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock on Northern sandbar",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Boy in house on island (Surf)",
+						"visibility_rules": ["$npc_on"],
+						"access_rules": ["$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Gym - Cliff Badge",
+						"item_count": 1
+					},
+					{
+						"name": "Gym - TM from Grant",
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Red Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$hasrod"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Pink Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$hasrod"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Sand Pile",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound,$hasrod"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 10",
+				"map_locations": [{"map": "Kalos", "x": 168, "y": 442}],
+				"access_rules": ["$Cyllage"],
+				"sections": [
+					{
+						"name": "Berry from berry tree",
+						"visibility_rules": ["$trees_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on Southwesternmost rock past Strength rock",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$strength,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item past Strength rocks",
+						"access_rules": ["$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in SE corner of South rock-bordered field",
+						"item_count": 1
+					},
+					{
+						"name": "Item in NW corner of South rock-bordered field",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in NE corner of South rock-bordered field",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in SE corner of Center rock-bordered field",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item near NW corner of Center rock-bordered field",
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Green Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Purple Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Tall Grass",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundgrass"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Geosenge Town",
+				"map_locations": [{"map": "Kalos", "x": 116, "y": 400}],
+				"access_rules": ["$Cyllage"],
+				"sections": [
+					{
+						"name": "TM from Monsieur in PC",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in SW corner",
+						"item_count": 1
+					},
+					{
+						"name": "Item behind hotel",
+						"item_count": 1
+					},
+					{
+						"name": "Scientist in house NW of PC",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 11",
+				"map_locations": [{"map": "Kalos", "x": 136, "y": 364, "size": 21}],
+				"access_rules": ["$Shalour"],
+				"sections": [
+					{
+						"name": "Berry from berry tree",
+						"visibility_rules": ["$trees_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on crystal next to berry tree",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item North of berry tree past Cut bush",
+						"access_rules": ["$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Item SE of Reflection Cave entrance",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on small crystal up stairs in SE",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Green Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Purple Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Tall Grass",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundgrass"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Reflection Cave",
+				"map_locations": [{"map": "Kalos", "x": 158, "y": 334, "size": 21}],
+				"access_rules": ["$Shalour"],
+				"sections": [
+					{
+						"name": "1F - Item at end of Northernmost branch",
+						"item_count": 1
+					},
+					{
+						"name": "1F - Item at end of narrow path NE of Route 11 exit",
+						"item_count": 1
+					},
+					{
+						"name": "1F - Item in South on hill",
+						"item_count": 1
+					},
+					{
+						"name": "B1F - Item East of stairs to 1f",
+						"item_count": 1
+					},
+					{
+						"name": "B1F - TM from Tierno",
+						"item_count": 1
+					},
+					{
+						"name": "B1F - Item in South on hill",
+						"item_count": 1
+					},
+					{
+						"name": "B1F - Item in NE corner",
+						"item_count": 1
+					},
+					{
+						"name": "B1F - Item in NW corner",
+						"item_count": 1
+					},
+					{
+						"name": "B2F - Item North of stairs to B1F",
+						"item_count": 1
+					},
+					{
+						"name": "B2F - Item through passage in NW",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Shalour City",
+				"map_locations": [{"map": "Kalos", "x": 192, "y": 302}],
+				"access_rules": ["$Shalour"],
+				"sections": [
+					{
+						"name": "Madame in house West of PC for pkmn with high friendship",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item behind bench in front of Gym",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Intriguing Stone from Tierno",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock on beach West of photo spot",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in front of wall around Tower of Mastery",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on bush East of Tower of Mastery entrance",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hiker East of PC in exchange for Intriguing Stone",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Gym - Rumble Badge",
+						"access_rules": ["$skater"],
+						"item_count": 1
+					},
+					{
+						"name": "Gym - TM from Korrina",
+						"access_rules": ["$skater"],
+						"item_count": 1
+					},
+					{
+						"name": "HM from Rival",
+						"access_rules": ["$skater,Rumble_Badge"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Red Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$hasrod"],
+						"access_rules": ["$backgroundwind,$hasrod"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Pink Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$hasrod"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Sand Pile",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound,$hasrod"],
+						"item_count": 1
+					},
+					{
+						"name": "Buy TM - Buy TM28",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM84",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM20",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM07",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM37",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					}
+				]
+			},
+			{
+				"name": "Tower of Mastery",
+				"map_locations": [{"map": "Kalos", "x": 192, "y": 262, "size": 21}],
+				"access_rules": ["$Shalour"],
+				"sections": [
+					{
+						"name": "TM from Ace Trainer",
+						"access_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Ring from Korrina",
+						"visibility_rules": ["$mega_evolutions"],
+						"access_rules": ["Rumble_Badge,$skater,$mega_stones"],
+						"item_count": 1
+					},
+					{
+						"name": "Lucarionite",
+						"access_rules": ["Rumble_Badge,$skater,$mega_stones"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 12",
+				"map_locations": [{"map": "Kalos", "x": 318, "y": 276}],
+				"sections": [
+					{
+						"name": "Hidden Item in NE corner",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Shalour,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree",
+						"visibility_rules": ["$trees_on"],
+						"access_rules": ["$Shalour,$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on small rock on South end of narrow beach",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Girl in ranch house",
+						"access_rules": ["$Coumarine"],
+						"item_count": 1
+					},
+					{
+						"name": "Item past Cut bush behind ranch house",
+						"access_rules": ["$Coumarine,$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Item NE of ranch past 3 ledges (Skiddo)",
+						"access_rules": ["$Coumarine,SkiddoLicense"],
+						"item_count": 1
+					},
+					{
+						"name": "Item East of ranch entrance gate (Skiddo)",
+						"access_rules": ["$Coumarine,SkiddoLicense"],
+						"item_count": 1
+					},
+					{
+						"name": "Item past Cut bush South of ranch entrance gate",
+						"access_rules": ["$Coumarine,$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in SW corner of Eastern beach",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock in shallow water NW of Eastern beach",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,$surf,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Red Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$Coumarine"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Pink Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$Coumarine"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Sand Pile",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound,$Coumarine"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Azure Bay",
+				"map_locations": [{"map": "Kalos", "x": 380, "y": 198}],
+				"access_rules": ["$Coumarine,$surf"],
+				"sections": [
+					{
+						"name": "Item on island with arrow shaped grass in East",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock on small island NE of arrow island",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item on NE corner of Sea Spirit's Den island",
+						"item_count": 1
+					},
+					{
+						"name": "Item on long sandbar in NW",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock NW of sign on South side of long sandbar",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "North Item on SW island",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock in center of grass on SW island",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Center Item on SW island",
+						"item_count": 1
+					},
+					{
+						"name": "South Item on SW island",
+						"item_count": 1
+					},
+					{
+						"name": "Ampharosite from Old Man",
+						"visibility_rules": ["$mega_stones"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Red Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Pink Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Sand Pile",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Coumarine City",
+				"map_locations": [{"map": "Kalos", "x": 440, "y": 252}],
+				"access_rules": ["$Coumarine"],
+				"sections": [
+					{
+						"name": "Hidden Item on NW post on Western pier",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Monsieur in house next to lighthouse",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Berry from unoccupied stall",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in corner behind unoccupied stall",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Good Rod from Fisherman",
+						"item_count": 1
+					},
+					{
+						"name": "TM from Veteran in North for completing quiz",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "HM from Sycamore in monorail station",
+						"item_count": 1
+					},
+					{
+						"name": "Man in monorail station",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item between house and sign West of PC",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item on edge of cliff North of PC",
+						"item_count": 1
+					},
+					{
+						"name": "Waitress in house South of PC for completing quiz",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Punk Guy in Route 13 gate",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Gym - Plant Badge",
+						"item_count": 1
+					},
+					{
+						"name": "Gym - TM from Ramos",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 13",
+				"map_locations": [{"map": "Kalos", "x": 530, "y": 276}],
+				"sections": [
+					{
+						"name": "Hidden Item just SW of Northern stairs",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in NE corner (Skates)",
+						"access_rules": ["$Coumarine,$skater"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock West of center East building",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item 7 tiles West and 4 North of above item",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item at end of path behind center East building",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item NE of SE building",
+						"access_rules": ["$Coumarine"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock South of NW grind rail",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item 9 tiles East and 4 South from above item",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item past Smashable rock in NW across rail (Skates)",
+						"access_rules": ["$Coumarine,$skater,$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock in NW across 2 rails (Skates)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,$skater,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "TM past Smashable rock in NW across 2 rails (Skates)",
+						"access_rules": ["$Coumarine,$skater,$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock NE of TM (Rock Smash, Skates)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,$skater,$rocksmash,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on large rock in SW East of bridge",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Coumarine,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item West of stairs to Lumiose across rail (Skates)",
+						"access_rules": ["$Coumarine,$skater"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on path East of Lumiose Gate (Rock Smash)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$sLumiose,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item on path East of Lumiose Gate (Rock Smash)",
+						"access_rules": ["$sLumiose,$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Yellow Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$Coumarine"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Mountain Spiky Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound,$Coumarine"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Round Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundfire,$Coumarine"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Kalos Power Plant",
+				"map_locations": [{"map": "Kalos", "x": 490, "y": 342}],
+				"access_rules": ["$Coumarine,PowerPlantPass"],
+				"sections": [
+					{
+						"name": "Item in NE corner of East room",
+						"item_count": 1
+					},
+					{
+						"name": "Full Restores from Dexio after beating Team Flare",
+						"item_count": 1
+					},
+					{
+						"name": "TM from Worker after defeating Team Flare",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Item from Scientist after defeating Team Flare",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 14",
+				"map_locations": [{"map": "Kalos", "x": 660, "y": 182}],
+				"access_rules": ["$Laverre"],
+				"sections": [
+					{
+						"name": "Hidden Item in Sandbox",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item behind swing set",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on log directly North of Lumiose gate",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item NE of large grass patch",
+						"item_count": 1
+					},
+					{
+						"name": "Item in West of Southern swamp",
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree",
+						"visibility_rules": ["$trees_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in NE behind Cut bush",
+						"access_rules": ["$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Hex Maniac East of Laverre City entrance",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Item across pond East of Laverre City entrance (Surf)",
+						"access_rules": ["$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Item directly South of Laverre City entrance",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on broken tombstone South of House",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item above ledge South of Scary House",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Laverre City",
+				"map_locations": [{"map": "Kalos", "x": 660, "y": 96}],
+				"access_rules": ["$Laverre"],
+				"sections": [
+					{
+						"name": "TM from Boy directly North of Route 14",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on mushroom next to boy",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item behind clothing shop",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in corner West of Gym",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on shroom next to house NE of Gym",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Gengarite from Hex Maniac",
+						"visibility_rules": ["$mega_stones"],
+						"item_count": 1
+					},
+					{
+						"name": "Gym - Fairy Badge",
+						"item_count": 1
+					},
+					{
+						"name": "Gym - TM from Valerie",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Poke Ball Factory",
+				"map_locations": [{"map": "Kalos", "x": 660, "y": 48, "size": 21}],
+				"access_rules": ["$Laverre"],
+				"sections": [
+					{
+						"name": "Exterior - Hidden Item in NW corner",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Exterior - Hidden Item in West hedge maze 1",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Exterior - Hidden Item in West hedge maze 2",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Exterior - Item in West hedge maze",
+						"item_count": 1
+					},
+					{
+						"name": "Exterior - Item in East hedge maze",
+						"item_count": 1
+					},
+					{
+						"name": "Exterior - Hidden Item in East hedge maze",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Interior - Item in NW corner",
+						"item_count": 1
+					},
+					{
+						"name": "Interior - Item SE of center stairs",
+						"item_count": 1
+					},
+					{
+						"name": "Interior - Item North of East stairs",
+						"item_count": 1
+					},
+					{
+						"name": "Interior - Master Ball from President",
+						"item_count": 1
+					},
+					{
+						"name": "Interior - Big Nugget from President",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 15",
+				"map_locations": [{"map": "Kalos", "x": 772, "y": 170}],
+				"sections": [
+					{
+						"name": "Item in leaves South of Laverre City gate",
+						"access_rules": ["$Dendimille"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in leaves directly East of Laverre City gate",
+						"access_rules": ["$Dendimille"],
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree",
+						"visibility_rules": ["$trees_on"],
+						"access_rules": ["$Dendimille"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on North Wall behind berry tree",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Dendimille,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in Leaves on NE end of Western river (Surf)",
+						"access_rules": ["$Dendimille,$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in leaf pile on NW end of West river (Surf)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Dendimille,$surf,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in 2nd leaf pile West of Western bridge",
+						"access_rules": ["$Dendimille"],
+						"item_count": 1
+					},
+					{
+						"name": "Item down path through grass next to West bridge",
+						"access_rules": ["$Dendimille"],
+						"item_count": 1
+					},
+					{
+						"name": "Item past cracked wall NE of West bridge (Rock Smash)",
+						"access_rules": ["$Dendimille,$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on small rock up Waterfall (Rock Smash)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Dendimille,$waterfall,$rocksmash,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item up Waterfall North of river (Rock Smash)",
+						"access_rules": ["$Dendimille,$waterfall,$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on wall of alcove South of East bridge (Surf)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Dendimille,$surf,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item past cracked wall NE of Eastern bridge (Rock Smash)",
+						"access_rules": ["$Dendimille,$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on 2F of Eastern ruins",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Dendimille,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item on South side of East river from Route 16 East (Cut, Strength, Waterfall)",
+						"access_rules": ["$Dendimille,$strength,$cut,$waterfall","$nLumiose,$cut,$surf,BeingCoolEnoughToBeAbleToGoToRoute15"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 16 (West)",
+				"map_locations": [{"map": "Kalos", "x": 758, "y": 288}],
+				"sections": [
+					{
+						"name": "Super Rod from Fisherman in shack",
+						"access_rules": ["$Dendimille,$strength","$nLumiose,BeingCoolEnoughToBeAbleToGoToRoute15"],
+						"item_count": 1
+					},
+					{
+						"name": "Item SE of Fishing shack past Strength rock",
+						"access_rules": ["$Dendimille,$strength","$nLumiose,BeingCoolEnoughToBeAbleToGoToRoute15,$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item SE of shack past Strength rock on small rock",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Dendimille,$strength,[$hidden]","$nLumiose,BeingCoolEnoughToBeAbleToGoToRoute15,$strength,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item left of Fisherman on middle deck platform",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$Dendimille,$strength,[$hidden]","$nLumiose,BeingCoolEnoughToBeAbleToGoToRoute15,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in NW corner",
+						"access_rules": ["$Dendimille,$strength","$nLumiose,BeingCoolEnoughToBeAbleToGoToRoute15"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Lost Hotel",
+				"map_locations": [{"map": "Kalos", "x": 764, "y": 218}],
+				"access_rules": ["$Dendimille"],
+				"sections": [
+					{
+						"name": "Route 15 - Item at end of first hall",
+						"item_count": 1
+					},
+					{
+						"name": "Route 15 - Learn Cosmic Flip from skate boss (Skates)",
+						"visibility_rules": ["$tricks_on"],
+						"access_rules": ["$masterskater"],
+						"item_count": 1
+					},
+					{
+						"name": "Route 15 - Item East of skate boss after learning all tricks (Skates)",
+						"visibility_rules": ["$tricks_on"],
+						"access_rules": ["$masterskater"],
+						"item_count": 1
+					},
+					{
+						"name": "Route 15 - Item past cracked wall East of skate boss (Skates)",
+						"visibility_rules": ["$tricks_on"],
+						"access_rules": ["$masterskater"],
+						"item_count": 1
+					},
+					{
+						"name": "Route 16 - Item past middle cracked wall (Strength)",
+						"access_rules": ["$rocksmash,$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Route 16 - Roller Skater in SW (Strength)",
+						"visibility_rules": ["$npc_on"],
+						"access_rules": ["$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Route 16 - Item in West between cracked walls (Strength)",
+						"access_rules": ["$rocksmash,$strength"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 16 (East)",
+				"map_locations": [{"map": "Kalos", "x": 824, "y": 270}],
+				"access_rules": ["$Dendimille,$strength"],
+				"sections": [
+					{
+						"name": "Hidden Item in hotel ruins 2F in NW corner",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item past Cut bush just West of hotel ruins",
+						"access_rules": ["$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in leaf pile in SE",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in leaf pile in SE corner",
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree",
+						"visibility_rules": ["$trees_on"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Dendimille Town",
+				"map_locations": [{"map": "Kalos", "x": 876, "y": 252}],
+				"access_rules": ["$Dendimille"],
+				"sections": [
+					{
+						"name": "Item from Artist in PC",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on bush SW of PC",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in South of farm field",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in center of SW plowed area in farm",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in NW corner on railing",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Youngster in house SW of windmill",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Frost Cavern",
+				"map_locations": [{"map": "Kalos", "x": 928, "y": 192}],
+				"access_rules": ["$Dendimille"],
+				"sections": [
+					{
+						"name": "Exterior - Item down Waterfall immediately NE",
+						"access_rules": ["$waterfall"],
+						"item_count": 1
+					},
+					{
+						"name": "Exterior - Item down Waterfall in far East",
+						"access_rules": ["$waterfall"],
+						"item_count": 1
+					},
+					{
+						"name": "Exterior - Hidden Item on short wall North of Artist",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Exterior - Hidden Item in corner West of cave entrance",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "1F - Hidden Item on rock West of entrance",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "1F - Hidden Item in NE on North wall in middle of ice",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "1F - Item above slope accessed from 2F",
+						"item_count": 1
+					},
+					{
+						"name": "1F - Item in Ice Rock room accessed from 2F NW corner (Surf)",
+						"access_rules": ["$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "2F - Hidden Item on left rock in area up West stairs from 1F",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "2F - Hidden Item on rock East after first slide from 1F",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "2F - Item North of Hiker in East",
+						"item_count": 1
+					},
+					{
+						"name": "2F - Hidden Item on fifth rock South of Battle Girl",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "2F - Item NE of SW stairs",
+						"item_count": 1
+					},
+					{
+						"name": "2F - Item down river in SW (Surf)",
+						"access_rules": ["$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "2F - Hidden Item on East rock in hallway from 1F to 3F",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "2F - Item in room accessed from 3F East stairs",
+						"item_count": 1
+					},
+					{
+						"name": "3F - Item in middle of ice West",
+						"item_count": 1
+					},
+					{
+						"name": "3F - Hidden Item on rock in East next to Battle Girl",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "3F - Item in SE near stairs",
+						"item_count": 1
+					},
+					{
+						"name": "3F - Hidden Item on wall East of Abomasnow",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "3F - Abomasite from Abomasnow",
+						"visibility_rules": ["$mega_stones"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Blue Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,$hasrod"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Iceberg",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound,$hasrod"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Snow Pile",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound,$hasrod"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 17",
+				"map_locations": [{"map": "Kalos", "x": 998, "y": 282}],
+				"access_rules": ["$Anistar"],
+				"sections": [
+					{
+						"name": "Hidden Item in NW corner at dead end",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["MamoswineLicense,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in North",
+						"access_rules": ["MamoswineLicense"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in SW",
+						"access_rules": ["MamoswineLicense"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item 2 steps North of Anistar City gate",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item North of Anistar City gate",
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Blue Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,MamoswineLicense"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Iceberg",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound,MamoswineLicense"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Snow Pile",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound,MamoswineLicense"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Anistar City",
+				"map_locations": [{"map": "Kalos", "x": 1124, "y": 320}],
+				"access_rules": ["$Anistar"],
+				"sections": [
+					{
+						"name": "Repeat Balls from Sina (get before Gym)",
+						"item_count": 1
+					},
+					{
+						"name": "TM from Hex Maniac in PC",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item East of Gym",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in bush right of Sundial",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on bottom side of North bridge to Sundial",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in alley right of clothing shop",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Psychic in house right of clothing shop",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Gym - Psychic Badge",
+						"item_count": 1
+					},
+					{
+						"name": "Gym - TM from Olympia",
+						"item_count": 1
+					},
+					{
+						"name": "Buy TM - Buy TM14",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM25",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM38",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM52",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					},
+					{
+						"name": "Buy TM - Buy TM15",
+						"visibility_rules": ["$shops_on"],
+						"access_rules": ["$shop_badges"]
+					}
+				]
+			},
+			{
+				"name": "Route 18",
+				"map_locations": [{"map": "Kalos", "x": 1160, "y": 350, "size": 21}],
+				"access_rules": ["$Snowbelle"],
+				"sections": [
+					{
+						"name": "Hidden Item on bush behind route sign",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item down ledge South of Anistar City gate",
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree (Cut)",
+						"visibility_rules": ["$trees_on"],
+						"access_rules": ["$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Item down grind rail past Cut bush (Skates)",
+						"access_rules": ["$cut,$skater"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on wall left of inverse battle house",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item across elevated tracks SE of inverse house",
+						"item_count": 1
+					},
+					{
+						"name": "Item in corner under elevated tracks (Rock Smash)",
+						"access_rules": ["$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on middle rock left of elevated tracks",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in NE corner of flowers North of Couriway Town",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "West Backgroundsanity - Green Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "West Backgroundsanity - Purple Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "West Backgroundsanity - Tall Grass",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundgrass"],
+						"item_count": 1
+					},
+					{
+						"name": "East Backgroundsanity - Yellow Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "East Backgroundsanity - Mountain Spiky Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound"],
+						"item_count": 1
+					},
+					{
+						"name": "East Backgroundsanity - Round Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundfire"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Terminus Cave",
+				"map_locations": [{"map": "Kalos", "x": 1230, "y": 316}],
+				"access_rules": ["$Snowbelle"],
+				"sections": [
+					{
+						"name": "Upper Chamber - Item in North",
+						"item_count": 1
+					},
+					{
+						"name": "Lower Chamber - Item in center (Rock Smash)",
+						"access_rules": ["$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "Lower Chamber - Hidden Item on rock (Rock Smash)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$rocksmash,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "B1F West - Item past Rock Smash rock SE of stairs from 1F",
+						"access_rules": ["$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "B1F West - Hidden Item on rock after 2 ledges in West",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "B1F West - Hidden Item on rock in NW near Smashable rock",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "B1F West - Item South of bridge with pacing Hiker",
+						"item_count": 1
+					},
+					{
+						"name": "B1F West - Item in SW corner (Rock Smash)",
+						"access_rules": ["$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "B1F West - Hidden Item past Smashable rock in NE",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$rocksmash,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "B2F - Hidden Item West of narrow path in West",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "B2F - Item in SW corner",
+						"item_count": 1
+					},
+					{
+						"name": "B2F - Item in NW corner",
+						"item_count": 1
+					},
+					{
+						"name": "B2F - Item in far North (Rock Smash)",
+						"access_rules": ["$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "B2F - Item in far East",
+						"item_count": 1
+					},
+					{
+						"name": "B2F - Item in central pit (Rock Smash)",
+						"access_rules": ["$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "B2F - Hidden Item in SE corner of central pit (Rock Smash)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$rocksmash,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "B2F - Hidden Item behind Pokemon Rangers in SE",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "B2F - Item West of Eastern stairs",
+						"item_count": 1
+					},
+					{
+						"name": "B1F East - Hidden Item on rock in NE",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "B1F East - Item above ledge in NE",
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Cave Spiky Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Thin Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwater"],
+						"item_count": 1
+					},
+					{
+						"name": "Defeat Zygarde",
+                        "chest_unopened_img": "/images/items/Zygarde.png",
+                        "chest_opened_img": "/images/items/ZygardeDim.png",
+						"visibility_rules": ["opt_victory_zygarde"],
+						"access_rules": ["$vroad,$strength"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Couriway Town",
+				"map_locations": [{"map": "Kalos", "x": 1192, "y": 384}],
+				"access_rules": ["$Snowbelle"],
+				"sections": [
+					{
+						"name": "Hidden Item on bush SW of PC",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in corner of 1st stairsEast of PC",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Madame at train station",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item between benches at train station",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item at train station",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in front of South bench on pier",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Beauty in Southern house for completing quiz",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "TM from Schoolgirl in Hotel",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on tile of land by small Waterfalls",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item by small Waterfalls",
+						"item_count": 1
+					},
+					{
+						"name": "Item up Waterfall in SE",
+						"access_rules": ["$waterfall"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 19",
+				"map_locations": [{"map": "Kalos", "x": 1138, "y": 428}],
+				"access_rules": ["$Snowbelle"],
+				"sections": [
+					{
+						"name": "Hidden Item on rock South of route sign",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in jumping rock puzzle",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on leaves in SE of swamp (Surf)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$surf,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in SW of swamp (Surf)",
+						"access_rules": ["$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock in swamp next to Ranger (Surf)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$surf,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item far North of swamp past Strength rock (Surf)",
+						"access_rules": ["$strength,$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Item NW of swamp up stairs (Surf)",
+						"access_rules": ["$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree (Surf)",
+						"visibility_rules": ["$trees_on"],
+						"access_rules": ["$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Item North of swamp across bridge (Surf)",
+						"access_rules": ["$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in SE corner of Easternmost flowers",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in SE corner",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in NE corner of flowers near Snowbelle",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "HM from Shauna",
+						"item_count": 1
+					},
+					{
+						"name": "West Backgroundsanity - Green Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,Rumble_Badge"],
+						"item_count": 1
+					},
+					{
+						"name": "West Backgroundsanity - Purple Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind,Rumble_Badge"],
+						"item_count": 1
+					},
+					{
+						"name": "West Backgroundsanity - Tall Grass",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundgrass,Rumble_Badge"],
+						"item_count": 1
+					},
+					{
+						"name": "East Backgroundsanity - Yellow Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "East Backgroundsanity - Mountain Spiky Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound"],
+						"item_count": 1
+					},
+					{
+						"name": "East Backgroundsanity - Round Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundfire"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Snowbelle City",
+				"map_locations": [{"map": "Kalos", "x": 1084, "y": 466}],
+				"access_rules": ["$Snowbelle"],
+				"sections": [
+					{
+						"name": "TM from Battle Girl in left house North of PC",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in snowbank North of Gym",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on tree right of house SW of Gym",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item at end of path on left of Gym",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in SW",
+						"item_count": 1
+					},
+					{
+						"name": "Gym - Iceberg Badge",
+						"item_count": 1
+					},
+					{
+						"name": "Gym - TM from Wulfric",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 20",
+				"map_locations": [{"map": "Kalos", "x": 1058, "y": 558}],
+				"access_rules": ["$Snowbelle"],
+				"sections": [
+					{
+						"name": "Item West from Snowbelle City in grass",
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree",
+						"visibility_rules": ["$trees_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Item South twice from Snowbelle City",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item South, West, South from Snowbelle on big tree",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item South, West, North, West from Snowbelle (Cut)",
+						"access_rules": ["$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item South, West, North, West from Snowbelle on stump (Cut)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$cut,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item East from Pkmn Village on big tree",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item East then West from Pkmn Village in dirt",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item East, West, South from Pkmn Village in NE of grass",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item East, West, South from Pkmn Village",
+						"item_count": 1
+					},
+					{
+						"name": "Item East, West, South, West from Pkmn Village (Cut)",
+						"access_rules": ["$cut"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Pokemon Village",
+				"map_locations": [{"map": "Kalos", "x": 1032, "y": 633}],
+				"access_rules": ["$Snowbelle"],
+				"sections": [
+					{
+						"name": "Berry from Furfrou next to Wulfric",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Item from Fletchling next to Wulfric",
+						"visibility_rules": ["$npc_on"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on tire in cener",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item on hill in SE",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item under empty West canopy",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item NW of empty canopy",
+						"item_count": 1
+					},
+					{
+						"name": "Item in flowers West of river (Surf)",
+						"access_rules": ["$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item in flowers West of river (Surf)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$surf,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item West of river up Waterfall",
+						"access_rules": ["$waterfall"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Green Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Purple Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Tall Grass",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundgrass"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 21",
+				"map_locations": [{"map": "Kalos", "x": 1010, "y": 466}],
+				"access_rules": ["$Snowbelle"],
+				"sections": [
+					{
+						"name": "Item up river North of Snowbelle gate (Surf)",
+						"access_rules": ["$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock East of Ace Duo",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item within Northern flowers (Strength)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$strength,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in NW across pond (Surf, Strength)",
+						"access_rules": ["$strength,$surf"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item NW across pond on wall (Cut, Surf, Strength)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$cut,$surf,$strength,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree (Cut, Surf, Strength)",
+						"visibility_rules": ["$trees_on"],
+						"access_rules": ["$cut,$surf,$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on rock in SW below Veteran",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in SW past Cut bush",
+						"access_rules": ["$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in South from Strength puzzle (Cut, Surf, Strength)",
+						"access_rules": ["$cut,$surf,$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in South down river (Cut, Surf, Strength)",
+						"access_rules": ["$cut,$surf,$strength"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Route 22",
+				"map_locations": [{"map": "Kalos", "x": 864, "y": 468}],
+				"sections": [
+					{
+						"name": "Item West of Victory Road gate down ledges",
+						"item_count": 1
+					},
+					{
+						"name": "Item past Cut bush in NW",
+						"access_rules": ["$cut"],
+						"item_count": 1
+					},
+					{
+						"name": "Item in Chamber of Emptiness (Waterfall)",
+						"access_rules": ["$waterfall"],
+						"item_count": 1
+					},
+					{
+						"name": "Item up East Waterfall",
+						"access_rules": ["$waterfall"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on West rock in Strength area (Waterfall)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$strength,$waterfall,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Item on bush West of Strength rocks (Waterfall)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$strength,$waterfall,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Berry from berry tree (Waterfall)",
+						"visibility_rules": ["$trees_on"],
+						"access_rules": ["$waterfall"],
+						"item_count": 1
+					},
+					{
+						"name": "Item from solving Strength puzzle (Waterfall, Strength)",
+						"access_rules": ["$strength,$waterfall"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Green Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Purple Berry Tree",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwind"],
+						"item_count": 1
+					},
+					{
+						"name": "Backgroundsanity - Tall Grass",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundgrass"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Victory Road",
+				"map_locations": [{"map": "Kalos", "x": 940, "y": 462}],
+				"access_rules": ["$vroad"],
+				"sections": [
+					{
+						"name": "Inside 1 - Hidden Item on rock after 1st pond",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Inside 1 - Item in SW corner",
+						"item_count": 1
+					},
+					{
+						"name": "Outside 2 - Hidden Item in rock NW of bridge",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 2 - Hidden Item on bush left of North cave",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Inside 2 - Item in far North",
+						"item_count": 1
+					},
+					{
+						"name": "Inside 2 - Hidden Item on far North wall",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Inside 2 - Hidden Item on rock in North of rock pit (Rock Smash)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$rocksmash,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 2 - Item in cave accessed fromm SE exit of Inside 2 (Rock Smash)",
+						"access_rules": ["$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 2 - Item through NW exit of Inside 2",
+						"access_rules": ["$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 3 - Hidden Item on small rock past Strength rock",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$strength,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 3 - Item in NW past cracked wall (Rock Smash)",
+						"access_rules": ["$strength,$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 3 - Item behind stone altar",
+						"access_rules": ["$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 3 - Max Revives from Rival",
+						"access_rules": ["$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 3 - Item SW of altar past cracked wall (Rock Smash)",
+						"access_rules": ["$strength,$rocksmash"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 3 - Hidden Item on rock from mid West exit of Inside 3",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$strength,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 3 - Item North from mid West exit of Inside 3",
+						"access_rules": ["$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Inside 3 - Hidden Item between ledges West of stairs",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$strength,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Inside 3 - Hidden Item on rock near NE corner",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$strength,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Inside 3 - Item down narrow slope in NE",
+						"access_rules": ["$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Inside 3 - Item South of stairs",
+						"access_rules": ["$strength"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 4 - Hidden Item on small rock South of Artist",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$strength,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 4 - Item up Waterfall past Hiker",
+						"access_rules": ["$strength,$waterfall"],
+						"item_count": 1
+					},
+					{
+						"name": "Outside 4 - Hidden Item in unwalkable grass East of Hiker (Waterfall)",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$strength,$waterfall,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Inside 4 - Hidden Item in center of final four torches",
+						"visibility_rules": ["$hidden_on"],
+						"access_rules": ["$strength,[$hidden]"],
+						"item_count": 1
+					},
+					{
+						"name": "Interior Backgroundsanity - Cave Spiky Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundsound"],
+						"item_count": 1
+					},
+					{
+						"name": "Interior Backgroundsanity - Thin Rock",
+						"visibility_rules": ["$bgs_spec"],
+						"access_rules": ["$backgroundwater"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Pokemon League",
+				"map_locations": [{"map": "Kalos", "x": 940, "y": 368}],
+				"visibility_rules": ["opt_victory_champ"],
+				"access_rules": ["$vroad,$strength"],
+				"sections": [
+					{
+						"name": "Become Champion",
+                        "chest_unopened_img": "/images/items/Diantha.png",
+                        "chest_opened_img": "/images/items/DianthaDim.png",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Mega Evolutions",
+				"map_locations": [{"map": "Kalos", "x": 48, "y": 48, "shape": "diamond", "size": 61}],
+				"visibility_rules": ["$mega_evolutions"],
+				"sections": [
+					{
+						"name": "Mega Venusaur, Charizard, or Blastoise",
+						"access_rules": ["$MegaKStarters"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Kangaskhan",
+						"access_rules": ["$MegaKangaskhan"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Pinsir",
+						"visibility_rules": ["opt_ver_x"],
+						"access_rules": ["$MegaPinsir"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Gyarados",
+						"access_rules": ["$MegaGyarados"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Aerodactyl",
+						"access_rules": ["$MegaAerodactyl"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Ampharos",
+						"visibility_rules": ["opt_megas_full"],
+						"access_rules": ["$MegaAmpharos"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Heracross",
+						"visibility_rules": ["opt_ver_y"],
+						"access_rules": ["$MegaHeracross"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Houndoom",
+						"visibility_rules": ["opt_ver_y"],
+						"access_rules": ["$MegaHoundoom"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Tyranitar",
+						"visibility_rules": ["opt_ver_x"],
+						"access_rules": ["$MegaTyranitar"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Gardevoir",
+						"access_rules": ["$MegaGardevoir"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Mawile",
+						"access_rules": ["$MegaMawile"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Aggron",
+						"visibility_rules": ["opt_ver_y"],
+						"access_rules": ["$MegaAggron"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Medicham",
+						"access_rules": ["$MegaMedicham"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Manectric",
+						"visibility_rules": ["opt_ver_x"],
+						"access_rules": ["$MegaManectric"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Absol",
+						"access_rules": ["$MegaAbsol"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Garchomp",
+						"access_rules": ["$MegaGarchomp"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Lucario",
+						"access_rules": ["$MegaLucario"],
+						"item_count": 1
+					},
+					{
+						"name": "Mega Abomasnow",
+						"access_rules": ["$MegaAbomasnow"],
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Backgroundsanity",
+				"map_locations": [{"map": "Kalos", "x": 128, "y": 48, "shape": "diamond", "size": 61}],
+				"visibility_rules": ["$bgs_gen"],
+				"sections": [
+					{
+						"name": "Green Berry Tree",
+						"access_rules": ["$backgroundwind,$backgroundWoodland"],
+						"item_count": 1
+					},
+					{
+						"name": "Purple Berry Tree",
+						"access_rules": ["$backgroundwind,$backgroundWoodland"],
+						"item_count": 1
+					},
+					{
+						"name": "Yellow Berry Tree",
+						"access_rules": ["$backgroundwind,$backgroundCliff"],
+						"item_count": 1
+					},
+					{
+						"name": "Red Berry Tree",
+						"access_rules": ["$backgroundwind,$backgroundBeach"],
+						"item_count": 1
+					},
+					{
+						"name": "Pink Berry Tree",
+						"access_rules": ["$backgroundwind,$backgroundBeach"],
+						"item_count": 1
+					},
+					{
+						"name": "Blue Berry Tree",
+						"access_rules": ["$backgroundwind,$backgroundSnow"],
+						"item_count": 1
+					},
+					{
+						"name": "Cave Spiky Rock",
+						"access_rules": ["$backgroundsound,$backgroundCave"],
+						"item_count": 1
+					},
+					{
+						"name": "Mountain Spiky Rock",
+						"access_rules": ["$backgroundsound,$backgroundCliff"],
+						"item_count": 1
+					},
+					{
+						"name": "Iceberg",
+						"access_rules": ["$backgroundsound,$backgroundSnow"],
+						"item_count": 1
+					},
+					{
+						"name": "Snow Pile",
+						"access_rules": ["$backgroundsound,$backgroundSnow"],
+						"item_count": 1
+					},
+					{
+						"name": "Sand Pile",
+						"access_rules": ["$backgroundsound,$backgroundBeach"],
+						"item_count": 1
+					},
+					{
+						"name": "Mossy Rock",
+						"access_rules": ["$backgroundsound,$backgroundGlittering"],
+						"item_count": 1
+					},
+					{
+						"name": "Round Rock",
+						"access_rules": ["$backgroundfire,$backgroundCliff"],
+						"item_count": 1
+					},
+					{
+						"name": "Thin Rock",
+						"access_rules": ["$backgroundwater,$backgroundCave"],
+						"item_count": 1
+					},
+					{
+						"name": "Tall Grass",
+						"access_rules": ["$backgroundgrass,$backgroundWoodland"],
+						"item_count": 1
+					}
+				]
+			}
+		]
+    }
+]

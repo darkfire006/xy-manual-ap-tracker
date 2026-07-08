@@ -1,0 +1,318 @@
+[
+	{
+		"name": "Victory Condition",
+		"type": "progressive",
+		"loop": true,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Victory Condition - Become Champion",
+				"img": "/images/Items/Diantha.png",
+				"codes": "opt_victory_champ",
+				"inherit_codes": false
+			},
+			{
+				"name": "Victory Condition - Become Clemont",
+				"img": "/images/Items/Clemont.png",
+				"codes": "opt_victory_clemont",
+				"inherit_codes": false
+			},
+			{
+				"name": "Victory Condition - Battle Zygarde",
+				"img": "/images/Items/Zygarde.png",
+				"codes": "opt_victory_zygarde",
+				"inherit_codes": false
+			}
+		],
+		"codes": "opt_victory"
+	},
+	{
+		"name": "Game Version",
+		"type": "progressive",
+		"codes": "opt_ver",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Pokemon X",
+				"img": "/images/Items/PokemonX.png",
+				"codes": "opt_ver_x",
+				"inherit_codes": false
+			},
+			{
+				"name": "Pokemon Y",
+				"img": "/images/Items/PokemonY.png",
+				"codes": "opt_ver_y",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Shuffle Hiddens",
+		"type": "progressive",
+		"codes": "opt_hidden",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Hidden Items Not Randomized",
+				"img": "/images/Items/NoHidden.png",
+				"codes": "opt_hidden_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Hidden Items Randomized",
+				"img": "/images/Items/Hidden.png",
+				"codes": "opt_hidden_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Shuffle NPC Items",
+		"type": "progressive",
+		"codes": "opt_npc",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "NPC Items Not Randomized",
+				"img": "/images/Items/HiddensOff.png",
+				"codes": "opt_npc_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "NPC Items Randomized",
+				"img": "/images/Items/HiddensOn.png",
+				"codes": "opt_npc_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Dowsing Machine",
+		"type": "progressive",
+		"codes": "opt_dowsing",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Dowsing Machine NOT Required",
+				"img": "/images/Items/DowsingMachine.png",
+				"img_mods": "@disabled",
+				"codes": "opt_dowsing_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Dowsing Machine Required",
+				"img": "/images/Items/DowsingMachine.png",
+				"codes": "opt_dowsing_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Early Megas",
+		"type": "progressive",
+		"codes": "opt_mega_early",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Lumiose Does NOT Require Mega Ring",
+				"img": "/images/Items/LumioseNoMegas.png",
+				"img_mods": "@disabled",
+				"codes": "opt_mega_early_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Lumiose Does Require Mega Ring",
+				"img": "/images/Items/LumioseMega.png",
+				"codes": "opt_mega_early_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Early Fly",
+		"type": "progressive",
+		"codes": "opt_fly_early",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Far Places Do NOT Require Fly",
+				"img": "/images/Items/NoEarlyFly.png",
+				"img_mods": "@disabled",
+				"codes": "opt_mega_fly_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Far Places Do Require Fly",
+				"img": "/images/Items/EarlyFly.png",
+				"codes": "opt_mega_fly_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Shuffle Tricks",
+		"type": "progressive",
+		"codes": "opt_tricks",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Skate Ticks Not Randomized",
+				"img": "/images/Items/360.png",
+				"img_mods": "@disabled",
+				"codes": "opt_tricks_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Skate Tricks Randomized",
+				"img": "/images/Items/360.png",
+				"codes": "opt_tricks_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Shuffle Skates",
+		"type": "progressive",
+		"codes": "opt_skates",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Roller Skates Not Randomized",
+				"img": "/images/Items/RollerSkates.png",
+				"img_mods": "@disabled",
+				"codes": "opt_skates_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Roller Skates Randomized",
+				"img": "/images/Items/RollerSkates.png",
+				"codes": "opt_skates_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Shuffle Shop TMs",
+		"type": "progressive",
+		"codes": "opt_shoptms",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Shop TMs Not Randomized",
+				"img": "/images/Items/HiddensOff.png",
+				"codes": "opt_shoptms_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Shop TMs Randomized",
+				"img": "/images/Items/HiddensOn.png",
+				"codes": "opt_shoptms_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Shuffle Berry Trees",
+		"type": "progressive",
+		"codes": "opt_trees",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Berry Trees Not Randomized",
+				"img": "/images/Items/HiddensOff.png",
+				"codes": "opt_trees_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Berry Trees Randomized",
+				"img": "/images/Items/HiddensOn.png",
+				"codes": "opt_trees_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Backgroundsanity",
+		"type": "progressive",
+		"codes": "opt_backgrounds",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Backgroundsanity is off",
+				"img": "/images/Items/HiddensOff.png",
+				"codes": "opt_backgrounds_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Backgroundsanity is Generic",
+				"img": "/images/Items/HiddensOn.png",
+				"codes": "opt_backgrounds_gen",
+				"inherit_codes": false
+			},
+			{
+				"name": "Backgroundsanity is Specific",
+				"img": "/images/Items/HiddensOn.png",
+				"codes": "opt_backgrounds_spec",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Mega Evolutions",
+		"type": "progressive",
+		"codes": "opt_megas",
+		"loop": false,
+		"inherit_codes": false,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Megas are not Checks",
+				"img": "/images/Items/MegaStones.png",
+				"img_mods": "@disabled",
+				"codes": "opt_Megas_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Mega Stones only",
+				"img": "/images/Items/MegaStones.png",
+				"codes": "opt_megas_stones",
+				"inherit_codes": false
+			},
+			{
+				"name": "All Megas Except Ampharos",
+				"img": "/images/Items/RegAmphy.png",
+				"codes": "opt_megas_nosheep",
+				"inherit_codes": false
+			},
+			{
+				"name": "All Mega Stones and Evolutions",
+				"img": "/images/Items/FullMega.png",
+				"codes": "opt_megas_full",
+				"inherit_codes": false
+			}
+		]
+	}
+]

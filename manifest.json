@@ -1,0 +1,21 @@
+
+{
+	"name": "Pokémon XY AP Manual Tracker",
+	"game_name": "Manual_PokemonXY_Snifit",
+	"package_version": "1.0.0",
+	"min_poptracker_version": "0.30.1",
+	"package_uid": "manual_pokemonxy_snifit_ap",
+	"author": "darkfire006",
+	"variants": {
+		"Map Tracker": {
+			"display_name": "Map Tracker (Vertical)",
+			"flags": ["ap", "apmanual"]
+		},
+		"tracker_horizontal": {
+			"display_name": "Map Tracker (Horizontal)",
+			"flags": ["ap", "apmanual"]
+		},
+        
+	},
+    "versions_url": ""
+}

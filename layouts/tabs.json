@@ -1,0 +1,30 @@
+{
+	"tabbed_maps_horizontal": {
+		"type": "tabbed",
+		"tabs": [
+			{
+				"title": "Kalos",
+				"content": {
+					"type": "map",
+					"maps": [
+						"Kalos"
+					]
+				}
+			}
+		]
+	},
+	"tabbed_maps_vertical": {
+		"type": "tabbed",
+		"tabs": [
+			{
+				"title": "Kalos",
+				"content": {
+					"type": "map",
+					"maps": [
+						"Kalos"
+					]
+				}
+			}
+		]
+	}
+}

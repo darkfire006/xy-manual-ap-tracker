@@ -1,0 +1,451 @@
+[
+	{
+		"name": "Bug Badge",
+		"type": "toggle",
+		"img": "/images/Items/Bug_Badge.png",
+		"codes": "Bug_Badge"
+	},
+	{
+		"name": "Cliff Badge",
+		"type": "toggle",
+		"img": "/images/Items/Cliff_Badge.png",
+		"codes": "Cliff_Badge"
+	},
+	{
+		"name": "Rumble Badge",
+		"type": "toggle",
+		"img": "/images/Items/Rumble_Badge.png",
+		"codes": "Rumble_Badge"
+	},
+	{
+		"name": "Plant_Badge",
+		"type": "toggle",
+		"img": "/images/Items/Plant_Badge.png",
+		"codes": "Plant_Badge"
+	},
+	{
+		"name": "Voltage Badge",
+		"type": "toggle",
+		"img": "/images/Items/Voltage_Badge.png",
+		"codes": "Voltage_Badge"
+	},
+	{
+		"name": "Fairy Badge",
+		"type": "toggle",
+		"img": "/images/Items/Fairy_Badge.png",
+		"codes": "Fairy_Badge"
+	},
+	{
+		"name": "Psychic Badge",
+		"type": "toggle",
+		"img": "/images/Items/Psychic_Badge.png",
+		"codes": "Psychic_Badge"
+	},
+	{
+		"name": "Iceberg Badge",
+		"type": "toggle",
+		"img": "/images/Items/Iceberg_Badge.png",
+		"codes": "Iceberg_Badge"
+	},
+
+	{
+		"name": "HM01 - Cut",
+		"type": "toggle",
+		"img": "/images/Items/Cut.png",
+		"codes": "HM01Cut"
+	},
+	
+	{
+		"name": "HM02 - Fly",
+		"type": "toggle",
+		"img": "/images/Items/Fly.png",
+		"codes": "HM02Fly"
+	},
+	
+	{
+		"name": "HM03 - Surf",
+		"type": "toggle",
+		"img": "/images/Items/Surf.png",
+		"codes": "HM03Surf"
+	},
+	
+	{
+		"name": "HM04 - Strength",
+		"type": "toggle",
+		"img": "/images/Items/Strength.png",
+		"codes": "HM04Strength"
+	},
+	
+	{
+		"name": "HM05 - Waterfall",
+		"type": "toggle",
+		"img": "/images/Items/Waterfall.png",
+		"codes": "HM05Waterfall"
+	},
+
+	{
+		"name": "TM94 - RockSmash",
+		"type": "toggle",
+		"img": "/images/Items/RockSmash.png",
+		"codes": "TM94-RockSmash"
+	},
+	
+	{
+		"name": "Dowsing Machine",
+		"type": "toggle",
+		"img": "/images/Items/DowsingMachine.png",
+		"codes": "DowsingMachine"
+	},
+	
+	{
+		"name": "Roller Skates",
+		"type": "toggle",
+		"img": "/images/Items/RollerSkates.png",
+		"codes": "RollerSkates"
+	},
+	
+	{
+		"name": "Poke Flute",
+		"type": "toggle",
+		"img": "/images/Items/PokeFlute.png",
+		"codes": "PokeFlute"
+	},
+	
+	{
+		"name": "Lumiose City Power",
+		"type": "toggle",
+		"img": "/images/Items/LumioseCityPower.png",
+		"codes": "LumioseCityPower"
+	},
+	
+	{
+		"name": "Rhyhorn License",
+		"type": "toggle",
+		"img": "/images/Items/RhyhornLicense.png",
+		"codes": "RhyhornLicense"
+	},
+	
+	{
+		"name": "Skiddo License",
+		"type": "toggle",
+		"img": "/images/Items/SkiddoLicense.png",
+		"codes": "SkiddoLicense"
+	},
+	
+	{
+		"name": "Mamoswine License",
+		"type": "toggle",
+		"img": "/images/Items/MamoswineLicense.png",
+		"codes": "MamoswineLicense"
+	},
+	
+	{
+		"name": "Being Ready To Tackle What Lies Beyond Here",
+		"type": "toggle",
+		"img": "/images/Items/BeingReadyToTackleWhatLiesBeyondHere.png",
+		"codes": "BeingReadyToTackleWhatLiesBeyondHere"
+	},
+	
+	{
+		"name": "Being Cool Enough To Be Able To Go To Route 15",
+		"type": "toggle",
+		"img": "/images/Items/BeingCoolEnoughToBeAbleToGoToRoute15.png",
+		"codes": "BeingCoolEnoughToBeAbleToGoToRoute15"
+	},
+	
+	{
+		"name": "Venusaurite",
+		"type": "toggle",
+		"img": "/images/Items/Venusaurite.png",
+		"codes": "Venusaurite"
+	},
+	
+	{
+		"name": "CharizarditeX",
+		"type": "toggle",
+		"img": "/images/Items/CharizarditeX.png",
+		"codes": "CharizarditeX"
+	},
+	
+	{
+		"name": "CharizarditeY",
+		"type": "toggle",
+		"img": "/images/Items/CharizarditeY.png",
+		"codes": "CharizarditeY"
+	},
+	
+	{
+		"name": "Blastoisinite",
+		"type": "toggle",
+		"img": "/images/Items/Blastoisinite.png",
+		"codes": "Blastoisinite"
+	},
+	
+	{
+		"name": "Kangaskhanite",
+		"type": "toggle",
+		"img": "/images/Items/Kangaskhanite.png",
+		"codes": "Kangaskhanite"
+	},
+	
+	{
+		"name": "Pinsirite",
+		"type": "toggle",
+		"img": "/images/Items/Pinsirite.png",
+		"codes": "Pinsirite"
+	},
+	
+	{
+		"name": "Gyaradosite",
+		"type": "toggle",
+		"img": "/images/Items/Gyaradosite.png",
+		"codes": "Gyaradosite"
+	},
+	
+	{
+		"name": "Aerodactylite",
+		"type": "toggle",
+		"img": "/images/Items/Aerodactylite.png",
+		"codes": "Aerodactylite"
+	},
+	
+	{
+		"name": "Ampharosite",
+		"type": "toggle",
+		"img": "/images/Items/Ampharosite.png",
+		"codes": "Ampharosite"
+	},
+	
+	{
+		"name": "Heracronite",
+		"type": "toggle",
+		"img": "/images/Items/Heracronite.png",
+		"codes": "Heracronite"
+	},
+	
+	{
+		"name": "Houndoominite",
+		"type": "toggle",
+		"img": "/images/Items/Houndoominite.png",
+		"codes": "Houndoominite"
+	},
+	
+	{
+		"name": "Tyranitarite",
+		"type": "toggle",
+		"img": "/images/Items/Tyranitarite.png",
+		"codes": "Tyranitarite"
+	},
+	
+	{
+		"name": "Gardevoirite",
+		"type": "toggle",
+		"img": "/images/Items/Gardevoirite.png",
+		"codes": "Gardevoirite"
+	},
+	
+	{
+		"name": "Mawilite",
+		"type": "toggle",
+		"img": "/images/Items/Mawilite.png",
+		"codes": "Mawilite"
+	},
+	
+	{
+		"name": "Aggronite",
+		"type": "toggle",
+		"img": "/images/Items/Aggronite.png",
+		"codes": "Aggronite"
+	},
+	
+	{
+		"name": "Medichamite",
+		"type": "toggle",
+		"img": "/images/Items/Medichamite.png",
+		"codes": "Medichamite"
+	},
+	
+	{
+		"name": "Manectite",
+		"type": "toggle",
+		"img": "/images/Items/Manectite.png",
+		"codes": "Manectite"
+	},
+	
+	{
+		"name": "Absolite",
+		"type": "toggle",
+		"img": "/images/Items/Absolite.png",
+		"codes": "Absolite"
+	},
+	
+	{
+		"name": "Garchompite",
+		"type": "toggle",
+		"img": "/images/Items/Garchompite.png",
+		"codes": "Garchompite"
+	},
+	
+	{
+		"name": "Lucarionite",
+		"type": "toggle",
+		"img": "/images/Items/Lucarionite.png",
+		"codes": "Lucarionite"
+	},
+	
+	{
+		"name": "Abomasite",
+		"type": "toggle",
+		"img": "/images/Items/Abomasite.png",
+		"codes": "Abomasite"
+	},
+	
+	{
+		"name": "Mega Ring",
+		"type": "toggle",
+		"img": "/images/Items/MegaRing.png",
+		"codes": "MegaRing"
+	},
+	
+	{
+		"name": "Old Rod",
+		"type": "toggle",
+		"img": "/images/Items/OldRod.png",
+		"codes": "OldRod"
+	},
+	
+	{
+		"name": "Good Rod",
+		"type": "toggle",
+		"img": "/images/Items/GoodRod.png",
+		"codes": "GoodRod"
+	},
+	
+	{
+		"name": "Super Rod",
+		"type": "toggle",
+		"img": "/images/Items/SuperRod.png",
+		"codes": "SuperRod"
+	},
+	
+	{
+		"name": "Power Plant Pass",
+		"type": "toggle",
+		"img": "/images/Items/PowerPlantPass.png",
+		"codes": "PowerPlantPass"
+	},
+	
+	{
+		"name": "Parallel Swizzle",
+		"type": "toggle",
+		"img": "/images/Items/ParallelSwizzle.png",
+		"codes": "ParallelSwizzle"
+	},
+	
+	{
+		"name": "360",
+		"type": "toggle",
+		"img": "/images/Items/360.png",
+		"codes": "360"
+	},
+	
+	{
+		"name": "Drift and Dash",
+		"type": "toggle",
+		"img": "/images/Items/DriftandDash.png",
+		"codes": "DriftandDash"
+	},
+	
+	{
+		"name": "Backflip",
+		"type": "toggle",
+		"img": "/images/Items/Backflip.png",
+		"codes": "Backflip"
+	},
+	
+	{
+		"name": "Air Cutter",
+		"type": "toggle",
+		"img": "/images/Items/AirCutter.png",
+		"codes": "AirCutter"
+	},
+	
+	{
+		"name": "Hyper Voice",
+		"type": "toggle",
+		"img": "/images/Items/HyperVoice.png",
+		"codes": "HyperVoice"
+	},
+	
+	{
+		"name": "Petal Blizzard",
+		"type": "toggle",
+		"img": "/images/Items/PetalBlizzard.png",
+		"codes": "PetalBlizzard"
+	},
+	
+	{
+		"name": "Eruption",
+		"type": "toggle",
+		"img": "/images/Items/Eruption.png",
+		"codes": "Eruption"
+	},
+	
+	{
+		"name": "Muddy Water",
+		"type": "toggle",
+		"img": "/images/Items/MuddyWater.png",
+		"codes": "MuddyWater"
+	},
+	
+	{
+		"name": "TM 14 - Blizzard",
+		"type": "toggle",
+		"img": "/images/Items/TM14.png",
+		"codes": "TM14"
+	},
+	
+	{
+		"name": "TM 80 - Rock Slide",
+		"type": "toggle",
+		"img": "/images/Items/TM80.png",
+		"codes": "TM80"
+	},
+	
+	{
+		"name": "Razor Leaf",
+		"type": "toggle",
+		"img": "/images/Items/RazorLeaf.png",
+		"codes": "RazorLeaf"
+	},
+	
+	{
+		"name": "Heat Wave",
+		"type": "toggle",
+		"img": "/images/Items/HeatWave.png",
+		"codes": "HeatWave"
+	},
+	
+	{
+		"name": "Water Spout",
+		"type": "toggle",
+		"img": "/images/Items/WaterSpout.png",
+		"codes": "WaterSpout"
+	},
+	
+	{
+		"name": "Twister",
+		"type": "toggle",
+		"img": "/images/Items/Twister.png",
+		"codes": "Twister"
+	},
+	
+	{
+		"name": "Lava Plume",
+		"type": "toggle",
+		"img": "/images/Items/LavaPlume.png",
+		"codes": "LavaPlume"
+	}
+
+]
+

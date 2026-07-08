@@ -1,0 +1,55 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "left",
+        "content": [
+            {
+                "type": "group",
+                "header": "Settings",
+                "dock": "bottom",
+                "content": {
+                    "type": "layout",
+                    "key": "settings_grid"
+                }
+            }
+        ]
+    },
+	"settings_grid": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content": [
+			{
+				"type": "itemgrid",
+				"item_margin": "2,2",
+				"h_alignment": "left",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 36,
+				"item_width": 36,
+				"rows": [
+					[
+						"opt_victory",
+						"opt_ver",
+						"opt_megas",
+						"opt_mega_early"
+					],
+					[
+						"opt_npc",
+						"opt_hidden",
+						"opt_dowsing",
+						"opt_fly_early"
+					],
+					[
+						"opt_backgrounds",
+						"opt_skates",
+						"opt_tricks",
+						"opt_trees",
+						"opt_shoptms"
+					]
+				]
+			}
+		]
+	}
+}
